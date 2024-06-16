@@ -13,6 +13,9 @@
   ],
   "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
   "devDependencies": {
     "eslint": "^9.5.0"
   }
