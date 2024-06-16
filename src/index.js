@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import pluginImport from "eslint-plugin-import-x";
+import unusedImports from "eslint-plugin-unused-imports";
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
@@ -28,6 +29,25 @@ export default [
       "import/order": [
         "error",
         { alphabetize: { order: "asc", orderImportKind: "asc" } },
+      ],
+    },
+  },
+
+  {
+    plugins: {
+      "unused-imports": unusedImports,
+    },
+    rules: {
+      "no-unused-vars": "off", // If typescript-eslint, need `"@typescript-eslint/no-unused-vars": "off"`,
+      "unused-imports/no-unused-imports": "error",
+      "unused-imports/no-unused-vars": [
+        "error",
+        {
+          vars: "all",
+          varsIgnorePattern: "^_",
+          args: "after-used",
+          argsIgnorePattern: "^_",
+        },
       ],
     },
   },
