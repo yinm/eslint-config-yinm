@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "eslint -c test/eslint.config.js test/cases"
   },
