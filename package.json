@@ -1,14 +1,29 @@
 {
   "name": "eslint-config-yinm",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "ESLint config for @yinm",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
   },
-  "keywords": [],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "eslint -c test/eslint.config.js test/cases"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
   "devDependencies": {
     "eslint": "^9.5.0"
   }
