@@ -8,3 +8,6 @@ foo.bar();
 
 // eslint-disable-next-line no-undef
 console.log("foobar");
+
+// eslint-disable-next-line no-var
+var _baz = 1;

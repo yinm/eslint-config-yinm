@@ -5,6 +5,11 @@ import unusedImports from "eslint-plugin-unused-imports";
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   js.configs.recommended,
+  {
+    rules: {
+      "no-var": "error",
+    },
+  },
 
   {
     plugins: {
