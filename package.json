@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint -c test/eslint.config.js test/cases"
   },
   "keywords": [],
   "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
