@@ -7,7 +7,10 @@
   "scripts": {
     "test": "eslint -c test/eslint.config.js test/cases"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
   "license": "MIT",
   "devDependencies": {
