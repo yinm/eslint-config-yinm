@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Yusuke Iinuma <yinm.cminor9@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.5.0"
+  }
 }
