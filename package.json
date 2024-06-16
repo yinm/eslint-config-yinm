@@ -6,6 +6,9 @@
   "exports": {
     ".": "./src/index.js"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "files": [
     "src"
   ],
