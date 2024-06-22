@@ -1,4 +1,6 @@
 import react from "eslint-plugin-react";
+import reactHooks from "eslint-plugin-react-hooks";
+import { fixupPluginRules } from "@eslint/compat";
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
@@ -6,6 +8,7 @@ export default [
     files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
     plugins: {
       react,
+      "react-hooks": fixupPluginRules(reactHooks),
     },
     languageOptions: {
       parserOptions: {
@@ -23,6 +26,9 @@ export default [
       "react/jsx-no-target-blank": [2, { allowReferrer: true }],
       "react/no-deprecated": 2,
       "react/self-closing-comp": 2,
+
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "error",
     },
   },
 ];
