@@ -4,7 +4,8 @@
   "description": "ESLint config for @yinm",
   "type": "module",
   "exports": {
-    ".": "./src/index.js"
+    ".": "./src/index.js",
+    "./typescript": "./src/typescript.js"
   },
   "engines": {
     "node": ">=20.0.0"
