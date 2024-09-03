@@ -2,7 +2,7 @@ import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import { fixupPluginRules } from "@eslint/compat";
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
   {
     files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
