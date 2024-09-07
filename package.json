@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-yinm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config for @yinm",
   "type": "module",
   "exports": {
