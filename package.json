@@ -30,7 +30,7 @@
     "eslint": "^9.5.0",
     "typescript": "^5.5.2"
   },
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "dependencies": {
     "@eslint/compat": "^1.1.0",
     "eslint-plugin-import-x": "^4.0.0",
