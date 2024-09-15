@@ -12,7 +12,10 @@
       "types": "./src/react.d.ts",
       "default": "./src/react.js"
     },
-    "./typescript": "./src/typescript.js"
+    "./typescript": {
+      "types": "./src/typescript.d.ts",
+      "default": "./src/typescript.js"
+    }
   },
   "engines": {
     "node": ">=20.0.0"
