@@ -4,9 +4,18 @@
   "description": "ESLint config for @yinm",
   "type": "module",
   "exports": {
-    ".": "./src/index.js",
-    "./react": "./src/react.js",
-    "./typescript": "./src/typescript.js"
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./react": {
+      "types": "./src/react.d.ts",
+      "default": "./src/react.js"
+    },
+    "./typescript": {
+      "types": "./src/typescript.d.ts",
+      "default": "./src/typescript.js"
+    }
   },
   "engines": {
     "node": ">=20.0.0"
