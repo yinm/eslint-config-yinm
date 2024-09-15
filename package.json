@@ -8,7 +8,10 @@
       "types": "./src/index.d.ts",
       "default": "./src/index.js"
     },
-    "./react": "./src/react.js",
+    "./react": {
+      "types": "./src/react.d.ts",
+      "default": "./src/react.js"
+    },
     "./typescript": "./src/typescript.js"
   },
   "engines": {
