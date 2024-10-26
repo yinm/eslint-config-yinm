@@ -21,7 +21,8 @@
     "node": ">=20.0.0"
   },
   "files": [
-    "src"
+    "src",
+    "!src/external-package-typings"
   ],
   "scripts": {
     "test": "eslint -c test/eslint.config.js test/cases"
@@ -41,7 +42,6 @@
   },
   "packageManager": "pnpm@9.12.2",
   "dependencies": {
-    "@eslint/compat": "^1.1.0",
     "eslint-plugin-import-x": "^4.0.0",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^5.0.0",
