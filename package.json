@@ -21,7 +21,8 @@
     "node": ">=20.0.0"
   },
   "files": [
-    "src"
+    "src",
+    "!src/external-package-typings"
   ],
   "scripts": {
     "test": "eslint -c test/eslint.config.js test/cases"
