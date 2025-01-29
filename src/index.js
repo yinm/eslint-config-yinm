@@ -8,6 +8,7 @@ export default [
   {
     rules: {
       "no-var": "error",
+      "object-shorthand": "error",
     },
   },
 

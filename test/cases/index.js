@@ -10,4 +10,9 @@ foo.bar();
 console.log("foobar");
 
 // eslint-disable-next-line no-var
-var _baz = 1;
+var baz = 1;
+
+const _foo = {
+  // eslint-disable-next-line object-shorthand
+  baz: baz,
+};
